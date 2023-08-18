@@ -6,4 +6,3 @@ ipAddress = r.json()["ip"]
 
 # Geo = requests.get
 print("https://ipinfo.io/"+ str(ipAddress) +"/geo")
-# print(Geo)
